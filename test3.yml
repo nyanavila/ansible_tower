@@ -1,7 +1,8 @@
 ---
-- hosts: desktop
-  tasks:
-- name: create a file on a remote machine
-  file:
-    dest: /tmp/file1
-    state: touch
+-  name: My test Ansible   
+   hosts: desktop
+   tasks:
+   - name: create a file on a remote machine
+     file:
+       dest: /tmp/file1
+       state: touch
