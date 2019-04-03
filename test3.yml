@@ -1,5 +1,5 @@
 ---
--  hosts: desktop
+-  hosts: all
    tasks:
    - name: create a file on a remote machine
      file:
