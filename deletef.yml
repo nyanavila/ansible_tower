@@ -2,6 +2,6 @@
 -  hosts: all
    tasks:
    - name: delete a file on a remote machine
-   file:
-     dest: /tmp/file1
-     state: absent
+     file:
+       dest: /tmp/file1
+       state: absent
