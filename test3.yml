@@ -1,6 +1,5 @@
 ---
--  name: My test Ansible   
-   hosts: desktop
+-  hosts: desktop
    tasks:
    - name: create a file on a remote machine
      file:
