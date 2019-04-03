@@ -3,5 +3,5 @@
 tasks:
 - name: create a file on a remote machine
   file:
-    dest: /tmp/file
+    dest: /tmp/file1
     state: touch
