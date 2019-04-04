@@ -9,7 +9,7 @@
           
      -  name: correct index.html
         copy:
-          src: files/index.html
+          remote_src: files/index.html
           dest: /var/www/html/index.html
           
      -  name: httpd is started
