@@ -1,6 +1,7 @@
 ---
 -  name: Install and start Apache HTTPD
    hosts: all
+   become: true
    tasks:
      -  name: httpd package is present
         yum:
@@ -8,7 +9,6 @@
           state: present
           
      -  name: correct index.html
-        become: true
         copy:
           owner: root
           group: root
