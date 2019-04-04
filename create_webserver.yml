@@ -8,6 +8,7 @@
           state: present
           
      -  name: correct index.html
+        become: true
         copy:
           owner: root
           group: root
