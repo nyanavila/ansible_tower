@@ -9,6 +9,7 @@
           
      -  name: correct index.html
         copy:
+          remote_src: true
           src: /home/navila/files/index.html
           dest: /var/www/html/index.html
           
