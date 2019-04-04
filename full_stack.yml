@@ -39,8 +39,8 @@
        state: started
        
    - name: test php page is installed
-   get_url:
-     src: /home/navila/files/index.html
-     dest: /var/www/html/index.php
-     mode: 0644
+     get_url:
+       src: /home/navila/files/index.html
+       dest: /var/www/html/index.php
+       mode: 0644
      
