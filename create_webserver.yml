@@ -9,8 +9,8 @@
           
      -  name: correct index.html
         copy:
-          become: true
-          remote_src: true
+          owner: root
+          group: root
           src: /home/navila/files/index.html
           dest: /var/www/html/index.html
           
