@@ -1,7 +1,7 @@
 ---
 -  name: Install and start Apache HTTPD
    hosts: all
-   become: true
+
    tasks:
      -  name: httpd package is present
         yum:
