@@ -2,5 +2,6 @@
 - name: Get Hostname
   hosts: all
   tasks:
-  -  hostname:
+  - name: Test Ping 
+    ping:
     
