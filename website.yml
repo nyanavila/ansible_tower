@@ -8,6 +8,7 @@
         state: present
         
     - name: correct index.html is present
+      become: true
       copy:
         src: /home/navila/files/index.html
         dest: /var/www/html/index.html
