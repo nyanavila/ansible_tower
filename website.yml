@@ -1,7 +1,7 @@
 ---
 - name: Install and Start Apache
   hosts: all
-  become: true
+  become: yes
   tasks:
     - name: httpd package is present
       yum:
