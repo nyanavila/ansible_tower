@@ -1,6 +1,7 @@
 ---
 - name: Install and Start Apache
   hosts: all
+  become: true
   tasks:
     - name: httpd package is present
       yum:
@@ -8,7 +9,6 @@
         state: latest
         
     - name: correct index.html is present
-      become: true
       copy:
         src: /home/navila/files/index.html
         dest: /var/www/html/index.html
