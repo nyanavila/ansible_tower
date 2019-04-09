@@ -1,7 +1,6 @@
 ---
 - name: Install and Start Apache
-  hosts: all
-  become: yes
+  hosts: 10.40.52.22
   tasks:
     - name: httpd package is present
       yum:
