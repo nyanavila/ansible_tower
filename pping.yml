@@ -1,4 +1,4 @@
 ---
-- hosts: All
+- hosts: pi
   tasks:
   - ping:
