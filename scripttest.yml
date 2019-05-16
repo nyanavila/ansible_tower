@@ -1,5 +1,5 @@
 ---
 - name: Test a simple script
-  hosts: all
+  hosts: 10.40.52.30
   tasks:
   - script: /home/navila/hello.py
