@@ -1,7 +1,6 @@
 ---
 - name: Test a simple script
   hosts: 10.40.52.30
-  remote_user: pi
   become: yes
   tasks:
   - script: /home/navila/hello.py
