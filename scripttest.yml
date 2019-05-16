@@ -1,5 +1,5 @@
 ---
 - name: Test a simple script
-  hosts: pi
+  hosts: all
   tasks:
   - script: /home/navila/hello.py
