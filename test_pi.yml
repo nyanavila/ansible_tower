@@ -1,6 +1,6 @@
 ---
 - name: Test the Pi from tower
-  hosts: pi
+  hosts: 10.40.52.30
   tasks:
     - name: Let there be lights
       command: "python /home/pi/SunFounder_SensorKit_for_RPi2/Python/02_rgb_led.py"
