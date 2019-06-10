@@ -5,5 +5,4 @@
     - name: Get the temperature
       command: "python /home/pi/SunFounder_SensorKit_for_RPi2/Python/26_ds18b20.py"
       register: cur_temp
-      
-    - debug: var=cur_temp
+    debug: var=cur_temp
