@@ -3,4 +3,4 @@
   hosts: 10.40.52.30
   tasks:
     - name: Get the temperature
-      command: "python /home/pi/SunFounder_SensorKit_for_RPi2/Python/18_thermistor.py"
+      command: "python /home/pi/SunFounder_SensorKit_for_RPi2/Python/26_ds18b20.py"
