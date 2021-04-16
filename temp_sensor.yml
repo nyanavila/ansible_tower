@@ -1,8 +1,8 @@
 ---
 - name: Test the Pi from tower
-  hosts: 10.40.52.30
+  hosts: 10.0.0.233
   tasks:
     - name: Get the temperature
-      command: "python /home/pi/SunFounder_SensorKit_for_RPi2/Python/26_ds18b20.py"
+      command: "python3 /home/pi/SunFounder/Python/18_thermistor.py"
       register: cur_temp
     debug: var=cur_temp
