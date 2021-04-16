@@ -1,0 +1,6 @@
+---
+- name: Test the Pi from tower
+  hosts: 10.0.0.233
+  tasks:
+    - name: Let there be lights
+      command: "python3 /home/pi/SunFounder/Python/18_thermistor.py"
